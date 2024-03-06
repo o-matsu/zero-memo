@@ -1,0 +1,1 @@
+ /Users/ryosuke/Documents/workspace/private/zero-memo/.dart_tool/flutter_build/459ae5c024926210b79b5c6f6ef2ce1d/native_assets.yaml: 
