@@ -1,0 +1,21 @@
+// **************************************************************************
+// RiverpodGenerator
+// **************************************************************************
+
+String _$watchDataHash() => r'd3a9d1bc93484d48756a65e42b17c8f2ababc2cf';
+
+/// See also [WatchData].
+@ProviderFor(WatchData)
+final watchDataProvider =
+    AutoDisposeNotifierProvider<WatchData, Watch>.internal(
+  WatchData.new,
+  name: r'watchDataProvider',
+  debugGetCreateSourceHash:
+      const bool.fromEnvironment('dart.vm.product') ? null : _$watchDataHash,
+  dependencies: null,
+  allTransitiveDependencies: null,
+);
+
+typedef _$WatchData = AutoDisposeNotifier<Watch>;
+// ignore_for_file: type=lint
+// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member
