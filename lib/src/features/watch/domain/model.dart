@@ -5,6 +5,6 @@ class Watch {
   final Status status;
   const Watch({
     this.time = 60,
-    this.status = Status.ready,
+    this.status = Status.stop,
   });
 }

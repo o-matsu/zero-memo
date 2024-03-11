@@ -20,6 +20,12 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "archive",
+      "rootUri": "file:///Users/ryosuke/.pub-cache/hosted/pub.dev/archive-3.4.10",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "args",
       "rootUri": "file:///Users/ryosuke/.pub-cache/hosted/pub.dev/args-2.4.2",
       "packageUri": "lib/",
@@ -194,6 +200,12 @@
       "languageVersion": "3.2"
     },
     {
+      "name": "flutter_launcher_icons",
+      "rootUri": "file:///Users/ryosuke/.pub-cache/hosted/pub.dev/flutter_launcher_icons-0.13.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
       "name": "flutter_lints",
       "rootUri": "file:///Users/ryosuke/.pub-cache/hosted/pub.dev/flutter_lints-3.0.1",
       "packageUri": "lib/",
@@ -252,6 +264,12 @@
       "rootUri": "file:///Users/ryosuke/.pub-cache/hosted/pub.dev/http_parser-4.0.2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "image",
+      "rootUri": "file:///Users/ryosuke/.pub-cache/hosted/pub.dev/image-4.1.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.15"
     },
     {
       "name": "io",
@@ -334,6 +352,18 @@
     {
       "name": "path",
       "rootUri": "file:///Users/ryosuke/.pub-cache/hosted/pub.dev/path-1.9.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "petitparser",
+      "rootUri": "file:///Users/ryosuke/.pub-cache/hosted/pub.dev/petitparser-6.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "pointycastle",
+      "rootUri": "file:///Users/ryosuke/.pub-cache/hosted/pub.dev/pointycastle-3.7.4",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -518,6 +548,12 @@
       "languageVersion": "3.3"
     },
     {
+      "name": "xml",
+      "rootUri": "file:///Users/ryosuke/.pub-cache/hosted/pub.dev/xml-6.5.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
       "name": "yaml",
       "rootUri": "file:///Users/ryosuke/.pub-cache/hosted/pub.dev/yaml-3.1.2",
       "packageUri": "lib/",
@@ -530,7 +566,7 @@
       "languageVersion": "3.3"
     }
   ],
-  "generated": "2024-03-06T13:08:08.798112Z",
+  "generated": "2024-03-11T12:17:50.687311Z",
   "generator": "pub",
   "generatorVersion": "3.3.0"
 }

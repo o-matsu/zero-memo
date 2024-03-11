@@ -13,30 +13,31 @@ class WatchData extends _$WatchData {
     return const Watch();
   }
 
-  void run() {
+  void start() {
     if (state.status.isRunning) return;
-    state = Watch(time: state.time, status: Status.running);
+    state = const Watch(status: Status.running);
+    _run();
+  }
 
+  void pause() {
+    state = Watch(time: state.time, status: Status.stop);
+  }
+
+  void _run() {
     Timer.periodic(const Duration(seconds: 1), (timer) {
-      if (!state.status.isRunning) {
+      if (state.status.isRunning) {
+        _countDown();
+        if (state.time < 0 && state.status == Status.running) {
+          state = Watch(time: state.time, status: Status.timeout);
+        }
+      } else {
         timer.cancel();
-        return;
       }
-      _countDown();
     });
   }
 
   void _countDown() {
     final current = state.time;
     state = Watch(time: current - 1, status: state.status);
-  }
-
-  void pause() {
-    state = Watch(time: state.time, status: Status.pause);
-  }
-
-  void restart() {
-    state = const Watch();
-    run();
   }
 }

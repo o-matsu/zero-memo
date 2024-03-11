@@ -1,9 +1,8 @@
 enum Status {
-  ready,
+  stop,
   running,
-  pause,
+  timeout,
   ;
 
-  Status get next => Status.values.elementAt((index + 1) % 3);
-  bool get isRunning => this == Status.running;
+  bool get isRunning => this != Status.stop;
 }
